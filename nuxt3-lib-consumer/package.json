@@ -7,10 +7,10 @@
     "clean": "rm -rf .output && rm -rf .nuxt && rm -rf node_modules"
   },
   "devDependencies": {
-    "nuxt3": "latest"
+    "nuxt": "^3.1.2"
   },
   "dependencies": {
     "@dcrall/vite-test-lib": "^0.1.4",
-    "@prp-astara/vite-ui": "latest"
+    "@prp-astara/vite-vue3-test-lib": "latest"
   }
 }

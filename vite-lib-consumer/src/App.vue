@@ -7,7 +7,7 @@ import {
 </script>
 <template>
   <div>
-    <h1>Nuxt 3 app</h1>
+    <h1>Vite 4 app</h1>
 
     <LibraryComponent> LibraryComponent </LibraryComponent>
     <AstoreButton> AstoreButton </AstoreButton>

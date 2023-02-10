@@ -8,7 +8,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@dcrall/vite-test-lib": "^0.1.4",
     "@prp-astara/vite-vue3-test-lib": "latest",
     "vue": "latest"
   },

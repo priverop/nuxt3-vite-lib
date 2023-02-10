@@ -1,7 +1,7 @@
 {
   "name": "@prp-astara/vite-vue3-test-lib",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "files": [
     "dist"
   ],
