@@ -1,5 +1,5 @@
-import AstoreButton from "./AstoreButton.vue";
-import HelloWorld from "./HelloWorld.vue";
-import LibraryComponent from "./LibraryComponent.vue";
+import AstoreButton from "./components/AstoreButton.vue";
+import HelloWorld from "./components/HelloWorld.vue";
+import LibraryComponent from "./components/LibraryComponent.vue";
 
 export { AstoreButton, HelloWorld, LibraryComponent };

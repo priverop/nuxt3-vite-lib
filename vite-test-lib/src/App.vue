@@ -1,8 +1,12 @@
-<script setup></script>
-
+<script setup>
+import { AstoreButton, HelloWorld, LibraryComponent } from "./index.js";
+</script>
 <template>
   <div>
     <h1>Minimal component library</h1>
+    <LibraryComponent> LibraryComponent </LibraryComponent>
+    <AstoreButton> AstoreButton </AstoreButton>
+    <HelloWorld msg="Astara Store" />
   </div>
 </template>
 
