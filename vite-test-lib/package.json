@@ -1,0 +1,30 @@
+{
+  "name": "@prp-astara/vite-vue3-test-lib",
+  "private": false,
+  "version": "0.0.1",
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/vite-test-lib.mjs",
+  "main": "./dist/vite-test-lib.umd.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vite-test-lib.mjs",
+      "require": "./dist/vite-test-lib.umd.js"
+    }
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "release": "vite build && npm version patch && npm publish --access public"
+  },
+  "dependencies": {
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "latest",
+    "vite": "latest"
+  }
+}
