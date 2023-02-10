@@ -10,7 +10,7 @@
     "nuxt": "^3.1.2"
   },
   "dependencies": {
-    "@dcrall/vite-test-lib": "^0.1.4",
-    "@prp-astara/vite-vue3-test-lib": "latest"
+    "@prp-astara/vite-vue3-test-lib": "latest",
+    "@prp-astara/vite-ui": "latest"
   }
 }
